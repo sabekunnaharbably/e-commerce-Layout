@@ -4,7 +4,7 @@ import Product from '../../components/Product'
 import Heading from '../../components/Heading'
 import "slick-carousel/slick/slick.css";
 import Slider from "react-slick";
-import PrevArrow from '../../components/prevArrow'
+import PrevArrow from '../../components/PrevArrow'
 import NextArrow from '../../components/NextArrow'
 import imgOne from '../../assets/Image.png'
 import imgTwo from '../../assets/Image1.png'
@@ -20,7 +20,7 @@ const ProductMain = () => {
         slidesToShow: 4,
         slidesToScroll: 1,
         prevArrow: <PrevArrow />,
-        nextArrow: <NextArrow />
+        nextArrow: <NextArrow />,
 
     }
 
