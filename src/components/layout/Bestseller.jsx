@@ -30,7 +30,6 @@ const Bestseller = () => {
 
 
             <Product
-
               badgeName={'New'}
               imgSrc={imgFive}
               listxtOne={'Add to Wish List'}
@@ -39,12 +38,9 @@ const Bestseller = () => {
               basicText={'Basic Crew Neck Tee'}
               priceText={'$44.00'}
               blackTxt={'Black'}
-
             />
 
-
             <Product
-
               badgeName={'New'}
               imgSrc={imgSix}
               listxtOne={'Add to Wish List'}
@@ -53,13 +49,9 @@ const Bestseller = () => {
               basicText={'Basic Crew Neck Tee'}
               priceText={'$44.00'}
               blackTxt={'Black'}
-
             />
 
-
-
             <Product
-
               badgeName={'New'}
               imgSrc={imgSeven}
               listxtOne={'Add to Wish List'}
@@ -68,13 +60,9 @@ const Bestseller = () => {
               basicText={'Basic Crew Neck Tee'}
               priceText={'$44.00'}
               blackTxt={'Black'}
-
             />
 
-
-
             <Product
-
               badgeName={'New'}
               imgSrc={imgEight}
               listxtOne={'Add to Wish List'}
@@ -83,12 +71,8 @@ const Bestseller = () => {
               basicText={'Basic Crew Neck Tee'}
               priceText={'$44.00'}
               blackTxt={'Black'}
-
             />
-
-
-
-
+            
           </Flex>
 
 

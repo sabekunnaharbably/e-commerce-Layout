@@ -14,7 +14,7 @@ const Product = ({ badgeName,imgSrc,className,listxtOne,comparetxtTwo,carttxtThr
 
       <div className="group">
 
-        <div className="relative">
+        <div className="relative mx-2">
 
           <Badge badgeName={badgeName} className={"absolute top-6 left-6"} />
           

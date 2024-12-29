@@ -1,11 +1,12 @@
 import React from 'react'
 import Container from '../../components/Container'
- import Flex from '../../components/Flex'
-  import Image from '../../components/Image'
- import logoo from '../../assets/Logo.png'
- import Menu from '../../components/Menu'
- import { FaSearch, FaUser, FaCaretDown, FaShoppingCart, FaEquals } from "react-icons/fa";
-  import Heading from '../../components/Heading'
+import Flex from '../../components/Flex'
+import Image from '../../components/Image'
+import logoo from '../../assets/Logo.png'
+import Menu from '../../components/Menu'
+import { FaSearch, FaUser, FaCaretDown, FaShoppingCart, FaEquals } from "react-icons/fa";
+import Heading from '../../components/Heading'
+import { Link } from 'react-router-dom'
 
 const Navber = () => {
     return (
@@ -19,10 +20,27 @@ const Navber = () => {
                         </div>
                         <div className="w-menuW py-8">
                             <Flex className={"justify-center text-white"}>
-                                <Menu menuName={"Home"} />
-                                <Menu menuName={"Shop"} />
-                                <Menu menuName={"About"} />
-                                <Menu menuName={"Contact"} />
+
+                                <Menu className={" flex justify-center text-white"}>
+
+                                    <Link to="/">
+                                        <li className={"font-dm text-5m text-menuColor mr-6 hover:font-bold hover:text-menuColorh mx-4 "}>Home</li>
+                                    </Link>
+                                    <Link to="/shop">
+                                        <li className={"font-dm text-5m text-menuColor mr-6 hover:font-bold hover:text-menuColorh mx-4 "}>Shop</li>
+                                    </Link>
+
+                                    <Link to="/checkout">
+                                        <li className={"font-dm text-5m text-menuColor mr-6 hover:font-bold hover:text-menuColorh mx-4 "}>About</li>
+                                    </Link>
+                                    <Link to="/signup">
+                                        <li className={"font-dm text-5m text-menuColor mr-6 hover:font-bold hover:text-menuColorh mx-4 "}>Contact</li>
+                                    </Link>
+
+                                    <Link to="/product_inside">
+                                        <li className={"font-dm text-5m text-menuColor mr-6 hover:font-bold hover:text-menuColorh mx-4 "}>Journal</li>
+                                    </Link>
+                                </Menu>
                             </Flex>
                         </div>
                     </Flex>

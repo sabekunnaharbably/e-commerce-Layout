@@ -21,12 +21,14 @@ export default {
         shopColor: '#F5F5F3',
          arrivalColor: '#979797', 
          fotterColor: '#6D6D6D', 
-         fotterMenuColor: '#262626',           
-
+         fotterMenuColor: '#262626', 
+         shopCategoryColor: '#F0F0F0', 
+         shopIconColor: '#737373',
+         starIconColor: '#FFD881',
       },
 
       // colors End 
-
+      
 
       // Container Part
 

@@ -5,9 +5,29 @@
 
 
 
-
-
-
 .slick-initialized .slick-slide {
     padding: 0 15px;
+}
+
+button.peer {
+    padding: 20px;
+     position: relative; 
+    z-index: 3;
+    bottom: 35px;
+    margin-left: 44px;
+
+}
+
+.selectt label {
+    top: -56px;
+    justify-content: start;
+    align-items: center;
+    bottom: 20px;
+    padding-left:54px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family:DM Sans;
+    color:#232323 ;
+   
+  
 }

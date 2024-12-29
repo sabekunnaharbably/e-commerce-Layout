@@ -50,7 +50,7 @@ const Fotter = () => {
                             <Heading as='p' text={"575 Crescent Ave. Quakertown, PA 18951"} className={"font-dm text-sm text-fotterColor pb-4"} />
                         </div>
 
-                        <div className="w-[30%]">
+                        <div className="w-[40%]">
                             <Image imgSrc={imgThirteen} />
                         </div>
 
